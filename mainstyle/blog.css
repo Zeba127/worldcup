@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Poppins:wght@400;500&family=Roboto+Slab&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ------------------
+       headerbannerstart
+------------------        */
+.top-banner{
+    display: flex;
+    background-color: darkgreen;
+    color:#FFFFFF;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 90px;
+    padding-top: 20px;
+    padding-left: 76.22px;
+    padding-right: 130px;
+    border-radius: 15px;
+}
+h1{
+    font-weight: 700px;
+    font-size: 50px;
+
+}
+.banner-info{
+    font-size: 12px;
+    margin-bottom: 50px;
+    
+}
+.banner-title{
+    padding-right: 100px;
+    margin-bottom: 20px;
+}
+
+
+@keyframes button {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+.banner-btn{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    animation-duration: 4s;
+    animation-name: button;
+   
+}
+.top-banner img{
+    height: 100%;
+}
+/* //----------------------
+             Headerbannerend
+------------------------// */
+/* ---------------------------
+              blogmenu
+---------------------------- */
+.menu-box{
+    height: 250px;
+    width: 246px;
+    margin-left: 50px;
+    margin-bottom:50px ;
+    background-color: grey;
+    border-radius: 10px;
+    padding:10px 10px;
+}
+   
+.menu-title{
+    background-color:#FFFFFF ;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+  
+}
+.menu-title a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+.menu-title:hover{
+    background-color: red;
+    color: #FFFFFF;
+}
+
+
+/*---------------------------------
+ playerblogstart 
+ ---------------------------------*/
+.blog-box{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+    height: 300px;
+    width: 250px;
+    
+}
+
+.blog-box img{
+    height: 150px;
+    width: 250px;
+}
+.blog-info{
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.fa-clock{
+      color: gray;
+}
+.fa-clock span{
+    margin-left: 10px;
+}
+.fa-message{
+    margin-left: 20px;
+    color: grey;
+}
+.fa-message span{
+    margin-left: 10px ;
+}
+
+
+
+.box-fix{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.blog-design{
+    display: flex;
+    
+}
+/* ----------------------
+     mainend
+----------------------- */
+/* ---------------------
+    footerstart-------------
+----------------------- */
+.back-color{
+    background-color: darkgreen;
+    width: 1200px;
+    height: 444px;
+    margin-top: 130px;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+}
+hr{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.footer-name{
+    color: white;
+    margin-left: 350px;
+    margin-right: 60px;
+    margin-top: 50px;
+    display: flex;
+    
+}
+.footer-name p{
+    margin-right: 15px;
+    font-size: 15px;
+    color: gray;
+}
+.footer-icon{
+    color:white;
+    font-size: 50px;
+    margin-left: 500px;
+}
+/* ---------------------
+            mediaquarey
+----------------- */
+@media only screen and (max-width: 688px) {
+    .top-banner {
+        width: 100%;
+     display: block;
+     
+    }
+    .blog-design{
+        width: 100%;
+        display: inline;
+    }
+    .box-fix{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .back-color{
+        flex-direction: column;
+    }
+    .footer-name{
+        width: 100%;
+        display: block;
+    }
+/*---------------------------
+ Tabletview 
+ -------------------------*/
+ @media screen and (min-width: 688px) and (max-width: 992px){
+
+    .top-banner {
+        width: 100%;
+        display: block;
+     
+    }
+    .blog-design{
+        width: 100%;
+        display: inline;
+    }
+    .box-fix{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .back-color{
+        flex-direction: column;
+    }
+    .footer-name{
+        display: block;
+    }
+
+ }
+
+
+}
