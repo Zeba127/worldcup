@@ -24,7 +24,7 @@ h1{
 
 }
 .banner-info{
-    font-size: 12px;
+    font-size: 18px;
     margin-bottom: 50px;
     margin-left: 10px;
     
@@ -127,6 +127,7 @@ p{
 }
 .blog-design{
     display: flex;
+    justify-content: center;
 
 }
 /* ----------------------
@@ -134,9 +135,8 @@ p{
 ----------------------- */
 .back-color{
     background-color: #070737;
-    width: 1200px;
     height: 444px;
-    margin-top: 130px;
+    margin: 130px auto 0 auto;
 }
 .footer-title{
     color: #FFFFFF;
