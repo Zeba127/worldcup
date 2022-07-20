@@ -43,6 +43,7 @@ h1{
     background-color: red;
     color: white;
     padding: 10px 10px;
+    font-size: 18px;
     border-radius: 5px;
     animation-duration: 4s;
     animation-name: button;
