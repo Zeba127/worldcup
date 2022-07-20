@@ -201,10 +201,7 @@ hr{
     .back-color{
         flex-direction: column;
     }
-    .footer-name{
-       
-        display: block;
-    }
+   
 /*---------------------------
  Tabletview 
  -------------------------*/
@@ -225,10 +222,7 @@ hr{
     .back-color{
         flex-direction: column;
     }
-    .footer-name{
-        display: block;
-    }
-
+    
  }
 
 
