@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Poppins:wght@400;500&family=Roboto+Slab&display=swap');
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -19,7 +19,7 @@ body{
     border-radius: 15px;
 }
 h1{
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 50px;
 
 }
