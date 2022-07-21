@@ -168,43 +168,47 @@ hr{
     margin-left: 650px;
 }
 /* mediaquaary */
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 576px) {
     .top-banner {
         width: 100%;
+        padding: 0;
+        margin: 0;
         display: block;
      
     }
     .blog-design {
         width: 100%;
         display: inline;
+    
     }
     .time-play{
         grid-template-columns: repeat(1,1fr);
+        
     }
     .back-color{
         flex-direction: column;
+    
+
     }
     .footer-name{
-        width: 100%;
-        display: block;
+      flex-direction: column;
+      margin-left: 30px;
     }
-/* tabletview */
-@media screen and (min-width: 688px) and (max-width: 992px){
 
-    .top-banner {
-        width: 100%;
-        display: block;
+/* tabletview */
+@media screen and (min-width: 576px) and (max-width: 992px){
+          .top-banner{
+            width: 100%;
+
+          }
+          .blog-design{
+            display: inline-flex;
+          }
+          .time-play{
+            grid-template-columns: repeat(2,1fr);
+          }
+   
      
-    }
-    .blog-design{
-        width: 100%;
-        display: inline;
-    }
-    .time-play{
-        grid-template-columns: repeat(2,1fr);
-    }
-    
-    
 
  }
 
